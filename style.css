@@ -1,4 +1,60 @@
 /* font */
 body{
     font-family: "Work Sans", sans-serif;
+    margin: 0px;
+}
+/* header style */
+header{
+    background-color: #FFF4E7;
+    padding: 8px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-titel{
+    font-size: 28px;
+    font-weight: 700;
+    color: #131313;
+
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    color: grey;
+}
+/* hero section */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+.banner-titel{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.banner-p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #FF900E;
+    border: 0px;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 5px;  
+    margin-bottom: 40px; 
 }
