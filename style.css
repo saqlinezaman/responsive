@@ -34,6 +34,14 @@ nav li a{
     color: grey;
 }
 /* hero section */
+.banner{
+    align-items: center;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+
 .banner-content{
     max-width: 800px;
     text-align: center;
@@ -57,4 +65,49 @@ nav li a{
     color: white;
     border-radius: 5px;  
     margin-bottom: 40px; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*responsive  */
+@media screen  and ( max-width:576px) {
+    header{
+        padding:10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    }
+    /* teams section */
+    main{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .teams-container{
+        display: flex;
+        align-items: center;
+    }
+.img-teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right :30px;
+}
+.teams-titel{
+    font-size: 2.8rem;
+}
+.teams-titel .quick{
+    color: gray;
+    font-weight: 500;
+}
+.teams-titel .Features{
+    font-weight: 700;
+    color: #FF900E;
 }
